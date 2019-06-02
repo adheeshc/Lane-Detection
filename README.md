@@ -2,7 +2,7 @@
 
 ## **PROJECT DESCRIPTION**
 
-The aim of this project is to detect custom AR Tags 
+The aim of this project is to do simple Lane Detection to mimic Lane Departure Warning systems used in Self Driving Cars. The task is to design an algorithm to detect lanes on the road, as well as estimate the road curvature to predict car turns.
 
 Please refer to [Project Report](https://github.com/adheeshc/Lane-Detection/blob/master/Report/Project%202.pdf) for further description
 
