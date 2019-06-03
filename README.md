@@ -6,37 +6,57 @@ The aim of this project is to do simple Lane Detection to mimic Lane Departure W
 
 Please refer to [Project Report](https://github.com/adheeshc/Lane-Detection/blob/master/Report/Project%202.pdf) for further description
 
-### Encoding Stage
+### Preparing the Input
 
 <p align="center">
-  <img src="/Images/ref_marker_grid.png" alt="Reference Marker">
+  <img src="/Images/combined_hsl.png" alt="Input Prep">
 </p>
 
-### Detection Stage
+- The image is undistorted using the camera parameters provided
+- The image is denoised
+- The color scale is changed from RGB to HSL
+- The region of interest (ROI) is extracted. I haveonly cropped out the top half of the image (sky) as it cannot be assumed that the car does not change lanes, and hence define small regions around lanes as ROIs
+
+### Lane Detection Candidates
+
+Here two approaches are used 1) Hough Lines and 2) Histogram of Lane Pixels
+
+#### Hough Lines
 
 <p align="center">
   <img src="/Images/Detection.png" alt="Detect Tag" width="200"/>
 </p>
 
+- Hough lines from the edge image acquired earlier are found
+- The peak Hough lines are found and extrapolated
 
-### Tracking Stage
+This approach howere doesnt successfully account for Curved Roads 
 
-<p align="center">
-  <img src="/Images/track.png" alt="Track Tag">
-</p>
-
-
-### Superimposing Lena
+#### Histogram of Lane Pixels
 
 <p align="center">
-  <img src="/Images/Lena_on_Tag.gif" alt="Lena on Tag">
+  <img src="/Images/histo.png" alt="Histo">
 </p>
 
-### Placing a Virtual 3D Cube
+- A histogram of pixel count along the y-axis is generated
+- The top regions with highest pixel count are extracted as they correspond to lanes
+
+### Refining Lane Detection
+
+<p align="center">
+  <img src="/Images/poly.png" alt="poly_fit">
+</p>
+
+A polynomial is fit to the detected lane candidates for better results
+A polygon is fit between the two detected anes 
+
+### Turn Prediction
 
 <p align="center">
   <img src="/Images/Cube_on_Tag.gif" alt="Cube on Tag">
 </p>
+
+I have used the slope method to implement Turn Prediction
 
 ## **DEPENDANCIES**
 
