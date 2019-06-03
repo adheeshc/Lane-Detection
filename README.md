@@ -17,6 +17,10 @@ Please refer to [Project Report](https://github.com/adheeshc/Lane-Detection/blob
 - The color scale is changed from RGB to HSL
 - The region of interest (ROI) is extracted. I haveonly cropped out the top half of the image (sky) as it cannot be assumed that the car does not change lanes, and hence define small regions around lanes as ROIs
 
+<p align="center">
+  <img src="/Images/homography.png" alt="Homography">
+</p>
+
 ### Lane Detection Candidates
 
 Here two approaches are used 1) Hough Lines and 2) Histogram of Lane Pixels
