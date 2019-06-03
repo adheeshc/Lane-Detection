@@ -39,7 +39,7 @@ This approach howere doesnt successfully account for Curved Roads
 #### Histogram of Lane Pixels
 
 <p align="center">
-  <img src="/Images/histogram.png" alt="Histo">
+  <img src="/Images/poly.png" alt="histo">
 </p>
 
 - A histogram of pixel count along the y-axis is generated
@@ -48,7 +48,7 @@ This approach howere doesnt successfully account for Curved Roads
 ### Refining Lane Detection and Turn Prediction
 
 <p align="center">
-  <img src="/Images/poly.png" alt="poly_fit">
+  <img src="/Images/histo.gif" alt="final_histo">
 </p>
 
 A polynomial is fit to the detected lane candidates for better results.
