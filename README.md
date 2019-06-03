@@ -35,28 +35,22 @@ This approach howere doesnt successfully account for Curved Roads
 #### Histogram of Lane Pixels
 
 <p align="center">
-  <img src="/Images/histo.png" alt="Histo">
+  <img src="/Images/histogram.png" alt="Histo">
 </p>
 
 - A histogram of pixel count along the y-axis is generated
 - The top regions with highest pixel count are extracted as they correspond to lanes
 
-### Refining Lane Detection
+### Refining Lane Detection and Turn Prediction
 
 <p align="center">
   <img src="/Images/poly.png" alt="poly_fit">
 </p>
 
-A polynomial is fit to the detected lane candidates for better results
-A polygon is fit between the two detected anes 
+A polynomial is fit to the detected lane candidates for better results.
+A polygon is fit between the two detected anes.
 
-### Turn Prediction
-
-<p align="center">
-  <img src="/Images/Cube_on_Tag.gif" alt="Cube on Tag">
-</p>
-
-I have used the slope method to implement Turn Prediction
+I have used the slope method to implement Turn Prediction.
 
 ## **DEPENDANCIES**
 
