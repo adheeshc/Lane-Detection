@@ -76,6 +76,8 @@ I have used the slope method to implement Turn Prediction.
 
 - Output folder - Contains output videos
 
+- References folder - Contains supplementary documents that aid in understanding
+
 - Report folder - Contains [Project Report](https://github.com/adheeshc/Lane-Detection/blob/master/Report/Project%202.pdf)
 
 ## **RUN INSTRUCTIONS**
