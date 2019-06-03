@@ -34,7 +34,7 @@ Here two approaches are used 1) Hough Lines and 2) Histogram of Lane Pixels
 - Hough lines from the edge image acquired earlier are found
 - The peak Hough lines are found and extrapolated
 
-This approach howere doesnt successfully account for Curved Roads 
+This approach however doesnt successfully account for Curved Roads 
 
 #### Histogram of Lane Pixels
 
