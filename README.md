@@ -68,7 +68,7 @@ I have used the slope method to implement Turn Prediction.
 
 - Code Folder/[Code 1(Both).py](https://github.com/adheeshc/Lane-Detection/blob/master/Code/Code%201(Both).py) - The code file can be run on both Project video and Challenge Video but isnt optimal for either
 - Code Folder/[Code 2(Project only).py](https://github.com/adheeshc/Lane-Detection/blob/master/Code/Code%202%20(Project%20Only).py) - The code file has been optimized for the Project Video
-- Code Folder/[OPTIONAL_HoughLines_Project2.py](https://github.com/adheeshc/Lane-Detection/blob/master/Code/OPTIONAL_HoughLines_Project2.py) - The code file where Hough Lines was attempted. It was later ignored due to reasons mentioned in [Project Report](https://github.com/adheeshc/Lane-Detection/blob/master/Report/Project%202.pdf) 
+- Code Folder/[OPTIONAL_HoughLines_Project2.py](https://github.com/adheeshc/Lane-Detection/blob/master/Code/OPTIONAL_HoughLines_Project2.py) - The code file where Hough Lines was attempted. It was later abandoned due to reasons mentioned in [Project Report](https://github.com/adheeshc/Lane-Detection/blob/master/Report/Project%202.pdf) 
 
 - Datasets folder - Contains 2 video input files 
 
