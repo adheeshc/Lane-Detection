@@ -28,7 +28,7 @@ Here two approaches are used 1) Hough Lines and 2) Histogram of Lane Pixels
 #### Hough Lines
 
 <p align="center">
-  <img src="/Images/Detection.png" alt="Detect Tag" width="200"/>
+  <img src="/Images/hough.gif" alt="Detect Tag">
 </p>
 
 - Hough lines from the edge image acquired earlier are found
