@@ -39,7 +39,7 @@ This approach however doesnt successfully account for Curved Roads
 #### Histogram of Lane Pixels
 
 <p align="center">
-  <img src="/Images/poly.png" alt="histo">
+  <img src="/Images/histogram.png" alt="histo">
 </p>
 
 - A histogram of pixel count along the y-axis is generated
